@@ -38,10 +38,10 @@ public class GuardarInformacion {
         this.afirmacion = afirmacion;
     }
 
-    public String GuardarDia(int diaDelMes, boolean afirmacion) {
+    public String GuardarDia(int diaDelMes,String efectos, boolean afirmacion) {
         String[] guardarDia = {String.valueOf(diaDelMes), String.valueOf(afirmacion)};
 
-        return diaDelMes+" "+ afirmacion;
+        return diaDelMes+", "+efectos+", "+ afirmacion;
     }
 
 //    public String GuardarDias() {
